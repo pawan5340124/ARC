@@ -65,7 +65,7 @@ public class ChAlert{
         label.adjustsFontSizeToFitWidth = true
         TextField.addSubview(label)
         
-        let AnimationCall = CodeHandlerAnimation()
+        let AnimationCall = ChAnimation()
         AnimationCall.ShakeAnimationForAnyView(viewSend: TextField)
         TextField.textColor = UIColor.red
         TextField.attributedPlaceholder = NSAttributedString(string: TextField.placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor : UIColor.red])
