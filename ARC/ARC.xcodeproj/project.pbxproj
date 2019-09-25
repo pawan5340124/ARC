@@ -66,100 +66,20 @@
 		D4178865233BC79300C00813 /* ARC */ = {
 			isa = PBXGroup;
 			children = (
-				D417888B233BCB7600C00813 /* String */,
-				D4178888233BCB2900C00813 /* TextField */,
-				D4178885233BCA9300C00813 /* Location */,
-				D4178882233BCA0A00C00813 /* Loader */,
-				D417887F233BC9B600C00813 /* DateAndTime */,
-				D417887C233BC98100C00813 /* Animation */,
-				D4178877233BC8EF00C00813 /* Alert */,
-				D4178874233BC85D00C00813 /* Api */,
-				D4178871233BC7D300C00813 /* Sqlite */,
-				D417886E233BC7B500C00813 /* CallARC */,
 				D4178866233BC79300C00813 /* ARC.h */,
+				D4178872233BC81B00C00813 /* ChSqlite.swift */,
+				D417888C233BCB8100C00813 /* ChString.swift */,
+				D4178889233BCB4200C00813 /* ChTextField.swift */,
+				D4178886233BCAB000C00813 /* ChLocation.swift */,
+				D4178883233BCA4D00C00813 /* ChLoader.swift */,
+				D4178880233BC9DC00C00813 /* ChDateTime.swift */,
+				D417887D233BC99300C00813 /* ChAnimation.swift */,
+				D417887A233BC91500C00813 /* ChAlert.swift */,
+				D4178875233BC87500C00813 /* ChApi.swift */,
+				D417886F233BC7CE00C00813 /* ARC.swift */,
 				D4178867233BC79300C00813 /* Info.plist */,
 			);
 			path = ARC;
-			sourceTree = "<group>";
-		};
-		D417886E233BC7B500C00813 /* CallARC */ = {
-			isa = PBXGroup;
-			children = (
-				D417886F233BC7CE00C00813 /* ARC.swift */,
-			);
-			path = CallARC;
-			sourceTree = "<group>";
-		};
-		D4178871233BC7D300C00813 /* Sqlite */ = {
-			isa = PBXGroup;
-			children = (
-				D4178872233BC81B00C00813 /* ChSqlite.swift */,
-			);
-			path = Sqlite;
-			sourceTree = "<group>";
-		};
-		D4178874233BC85D00C00813 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				D4178875233BC87500C00813 /* ChApi.swift */,
-			);
-			path = Api;
-			sourceTree = "<group>";
-		};
-		D4178877233BC8EF00C00813 /* Alert */ = {
-			isa = PBXGroup;
-			children = (
-				D417887A233BC91500C00813 /* ChAlert.swift */,
-			);
-			path = Alert;
-			sourceTree = "<group>";
-		};
-		D417887C233BC98100C00813 /* Animation */ = {
-			isa = PBXGroup;
-			children = (
-				D417887D233BC99300C00813 /* ChAnimation.swift */,
-			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		D417887F233BC9B600C00813 /* DateAndTime */ = {
-			isa = PBXGroup;
-			children = (
-				D4178880233BC9DC00C00813 /* ChDateTime.swift */,
-			);
-			path = DateAndTime;
-			sourceTree = "<group>";
-		};
-		D4178882233BCA0A00C00813 /* Loader */ = {
-			isa = PBXGroup;
-			children = (
-				D4178883233BCA4D00C00813 /* ChLoader.swift */,
-			);
-			path = Loader;
-			sourceTree = "<group>";
-		};
-		D4178885233BCA9300C00813 /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				D4178886233BCAB000C00813 /* ChLocation.swift */,
-			);
-			path = Location;
-			sourceTree = "<group>";
-		};
-		D4178888233BCB2900C00813 /* TextField */ = {
-			isa = PBXGroup;
-			children = (
-				D4178889233BCB4200C00813 /* ChTextField.swift */,
-			);
-			path = TextField;
-			sourceTree = "<group>";
-		};
-		D417888B233BCB7600C00813 /* String */ = {
-			isa = PBXGroup;
-			children = (
-				D417888C233BCB8100C00813 /* ChString.swift */,
-			);
-			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
